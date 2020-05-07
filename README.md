@@ -1,27 +1,56 @@
-# Marat
+# RPG LaTeX Template
 
-![Marat](https://raw.githubusercontent.com/JohnCoene/marat/master/assets/img/screenshot.png)
+This is an attempt at a RPG LaTeX template.
+The template compiles with pdflatex.
 
-Revive the values of the Enlightenment with `marat`.
+### Book
+![Preview](https://raw.githubusercontent.com/Krozark/RPG-LaTeX-Template/master/sample/book.jpg)
 
-See [Marat in action](http://marat.john-coene.com).
+### Cards
+![Preview](https://raw.githubusercontent.com/Krozark/RPG-LaTeX-Template/master/sample/cards.png)
 
-Marat is heavily inspired by [L'Ami du peuple](https://en.wikipedia.org/wiki/L%27Ami_du_peuple), a newspaper written by [Jean-Paul Marat](https://en.wikipedia.org/wiki/Jean-Paul_Marat) during the French Revolution, in which he was a j vocal advocate for the rights of man and liberty.
+### Installation
 
-1. Adapt the `_config.yml` file
-2. Replace/Delete the posts
-3. Change `about.md`
-4. Change or add your links in the `nav.yml` file located in the `_data` folder
-5. Replace the `favicon.ico`
-6. Customise the `404.md` page in the root directory
-6. Run `bundle exec jekyll serve --watch`
-7. Enlighten the masses!
+Just clone the repo. From terminal:
 
-> Unlike Marat's pamphlets the theme is fully responsive.
+```sh
+$ git clone https://github.com/Krozark/RPG-LaTeX-Template.git
+$ cd RPG-Latex-Template
+$ pdflatex book.tex
+$ pdflatex cards.tex
+```
 
-Plugins:
+If you don't have LaTeX installed, the following should help you out:
+#### Ubuntu
+```sh
+sudo apt-get install texlive-full
+```
+#### Arch
+```sh
+sudo pacman -S texlive-bin texlive-core texlive-latexextra
+```
+It's a bit unclear exactly what subset of features this module needs. As a general rule, we'd recommend installing one of larger ones.
 
-Marat includes the following plugins.
+### Package Options
+- bg-letter: Loads a letter-sized background-image
+- bg-a4: Loads an A4-sized background-image
+- bg-print: Loads a printer-friendly background-image (only decal at the bottom)
+- bg-full: Loads the full background-image
 
-* [jekyll-roman](https://github.com/paulrobertlloyd/jekyll-roman)
-* [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+Per default "bg-letter" and "bg-full" are loaded.
+
+### Todo's
+
+ - Consider implementing more complex tables for monsters, etc.
+ - Clean up the table-preset
+ - Create more elegant solution for spacing before and after boxes (using \vspace is rather rigid when two boxes follow in a row)
+ - Add subtitle option for boxes
+ - Sort out box-decals when boxes break column or page
+ - Look into adding the ability to add large images to the document. There are some documents made with InDesign out there that accomplish this quite well.
+
+
+### Image Credit
+
+ - Background : http://lostandtaken.com/
+ - Sword : http://opengameart.org/content/medieval-sword
+
