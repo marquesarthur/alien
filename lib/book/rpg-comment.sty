@@ -21,6 +21,36 @@
 	#1
 }
 
+\newtcolorbox{rpg-pcbox}[3][]{
+	frame hidden,
+	boxrule=0pt,
+	breakable,
+	enhanced,
+	before skip=5pt plus 1pt,
+	toptitle=3mm,
+	boxsep=0.25ex,
+	left=8pt,
+	right=8pt,
+	bottom=15pt,
+	arc=0mm,
+	fonttitle=\fontfamily{fosj}\selectfont\scshape\bfseries\color{black},
+	fontupper=\fontfamily{lmss}\selectfont,
+	title=#2,
+	parbox = false,
+	colback=commentgreen,
+	colframe=commentgreen,
+	colbacktitle=commentgreen,
+	after={\vspace{5pt plus 1pt}\noindent},
+	arc=4pt,
+	outer arc=4pt,
+	leftupper=3.5cm,
+	overlay={
+    \node[anchor=north west] 
+      at ([xshift=10pt,yshift=-1.65\baselineskip]frame.north west)
+       {\includegraphics[width=2.5cm,height=2.5cm]{#3}};},
+	#1
+}
+
 \newtcolorbox{rpg-warnbox}[2][]{
 	frame hidden,
 	boxrule=0pt,
