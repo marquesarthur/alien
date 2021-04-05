@@ -1,0 +1,111 @@
+E X H A U S T E D
+You need to sleep for at least one Shift each
+day. After one day without sufficient sleep,
+you become Exhausted. Being Exhausted has
+several effects:
+T You cannot relieve Stress.
+T You must make a STAMINA roll each day (the
+GM decides when), with a negative modification equal to the number of days spent
+without decent sleep. If the roll fails, you
+collapse and sleep for one Shift.
+T As soon as you have slept for at least one
+Shift, you are no longer Exhausted.
+
+
+E X P L O S I O N S
+The force of an explosion is measured in Blast
+Power. For each person within SHORT range of
+the blast when the detonation occurs, roll a
+number of Base Dice equal to the Blast Power.
+For every SUC rolled, the victim suffers one
+point of damage. The roll cannot be pushed.
+Victims at ENGAGED range from the detonation
+suffer one extra point of damage.
+EFFECT RADIUS: Powerful charges, with
+a Blast Power of 7 or more, can harm people
+even at MEDIUM range. The Blast Power is then
+reduced by 6. If there are many people within
+MEDIUM range of the blast, the GM can simplify
+the process by rolling once and applying the
+result to all victims.
+
+F I R E
+A fire is measured in Intensity. A typical fire
+has Intensity 8. When exposed to fire, roll a
+number of Base Dice equal to the Intensity.
+For every SUC rolled, you suffer one point of
+damage. Armor can protect you.
+If you take damage, you catch fire and
+continue to burn and suffer another attack at
+the start of each new Round. The Intensity increases by one each Round. As soon as a fire
+attack inflicts no damage, the fire goes out by
+itself. You, or a friend at ENGAGED range, can
+put out the fire with a successful MOBILITY roll
+(slow action).
+If you are Broken by fire damage, or suffer
+fire damage when already Broken, you must
+make a Death Roll every Round until you die
+or you are saved by a MEDICAL AID roll.
+
+
+S U F F O C A T I O N
+If your supply of air runs out (see page
+34), you won’t have long to live. You’ll start
+breathing in your own exhaled air, building up
+dangerous levels of carbon dioxide that will
+eventually kill you.
+After your air supply runs out, you must
+make a STAMINA roll every Turn or after every
+strenuous activity (like a roll for CLOSE COMBAT
+or MOBILITY). The first roll is unmodified, the
+second roll gets a –1 modification, the third
+gets –2, and so on. A failed roll means you
+drop directly to zero Health and must make a
+Death Roll every Round until you die or you
+enter a pressurized area.
+
+
+T O O L S
+
+WATATSUMI DV-303 BOLT GUN: Read
+more under Weapons above. When used as a tool,
+the bolt gun gives a +2 modification to HEAVY MACHINERY in relevant situations.
+damage 3, range short, armor-piercing, single-round
+
+MECHANICAL CUTTING TORCH: Read
+more under Weapons above. When used as a
+tool, the cutting torch gives a +2 modification to
+HEAVY MACHINERY in relevant situations. The cutting
+torch consumes a lot of electricity, and you need
+to make a Power Supply roll after every use (see
+page 36). Its battery has a Power Supply level of 5
+when fully charged.
+damage 3, armor piercing
+
+MAINTENANCE JACK: A common tool used
+to open unpowered airlocks and divert power to
+or from electrical junction boxes. Gives a +1 modification to HEAVY MACHINERY in relevant situations
+
+
+
+P H A R M A C E U T I C A L S
+There are a number of prescribed and under the
+table drugs that are common on the Frontier.
+
+NEVERSLEEP PILLS: Fast acting supplement
+that keeps you going well past your bedtime. Excessive use can cause stroke or heart attack. Each
+dose increases your STRESS LEVEL one step but removes the need for sleep for one day. During that
+day, you cannot relieve stress (see page 104).
+
+HYDR8TION: An electrolyte solution that counteracts the dehydrating effects of hypersleep (see
+page 151), Hydr8tion is one of the few pharmaceuticals of the space age with no side effects.
+
+NAPROLEVE: An injectable instant pain
+reliever for all strains, stresses, and irritations.
+Recommended for use during any self-inflicted
+cesarean performed to extract an unconventional
+fetus from your womb. Immediately reduces the
+patient’s STRESS LEVEL to zero. Warning: an overdose of Naproleve can have an intoxicating effect.
+Each dose beyond the first in the same Shift gives
+a –1 modification to all AGILITY-based skill rolls
+until the end of the Shift.
