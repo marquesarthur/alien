@@ -1,0 +1,129 @@
+\documentclass[10pt,twoside,twocolumn]{book}
+\usepackage[bg-letter]{lib/rpg-book} % Options: bg-a4, bg-letter, bg-full, bg-print, bg-none.
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage[T1]{fontenc}
+\usepackage{tgcursor}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+
+\usepackage{rotating}
+\usepackage{tikz}
+
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+  \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+\makeatletter
+\def\newsect{%
+    \vskip2em plus0.5em minus0.5em%
+    \hbox to\linewidth{\hfil*\quad\quad*\quad\quad*\hfil}%
+    \penalty10000\vskip2em plus0.5em minus0.5em%
+    \@afterindentfalse\@afterheading%
+}
+\makeatother%
+
+
+\definecolor{alien}{rgb}{1, 1, 0.9}
+
+\definecolor{PC}{HTML}{c0ccc1}
+
+
+\newcommand\pc[1]{\colorbox{PC}{\color{black} #1}}
+
+%  
+
+\AtBeginDocument{\globalcolor{alien}}
+
+\title{Melting Point}
+\date{\today}
+\author{Arthur Marques \\ u/marques\_art\_boris}
+
+
+
+
+
+% Start document
+\begin{document}
+\fontfamily{ppl}\selectfont % Set text font
+\frontmatter
+
+\maketitle
+
+
+
+\begin{rpg-warnbox}{A note form the author}
+  This scenario is for mature audiences. It discusses topics sensitive to some people, such as body disembodiment, terrorism, civil rights, etc. If you are not comfortable with that, this book might not be the best fit for you.
+
+  \begin{flushright}
+  -- Arthur Marques
+  \end{flushright}
+\end{rpg-warnbox}
+
+
+\tableofcontents
+
+% Your content goes here
+\mainmatter
+% \chapter{Chapter name}
+
+% \section{Section name}
+% \lipsum[1] % filler text
+
+% \subsection{Subsection name}
+% \subsubsection{subsubsection name}
+
+% \begin{rpg-commentbox}{rpg-commentbox name}
+% 	you can add some comments using this box
+% \end{rpg-commentbox}
+
+% \begin{rpg-warnbox}{rpg-warnbox name}
+% 	you can add some warnings using this box
+% \end{rpg-warnbox}
+
+% \begin{rpg-quotebox}{rpg-quotebox name}
+%     this is a quote box
+% \end{rpg-quotebox}
+
+% %\newpage % Acts as columbreak because of twocolumn option; for pagebreak use \clearpage
+
+% \header{default rpg-table (2 column)}
+% \begin{rpg-table}
+%    	\textbf{Table head 1}  & \textbf{Table head 2} \\
+%    	Some value  & Some value \\
+%    	Some value  & Some value \\
+%    	Some value  & Some value
+% \end{rpg-table}
+
+% % For more columns, you can say \begin{rpg-table}[your options here].
+% % For instance, if you wanted three columns, you could say
+% % \begin{rpg-table}[XXX]. The usual host of tabular parameters are
+% % aailable as well.
+% \header{rpg-table with more columns}
+% \begin{rpg-table}[XXX]
+%     \textbf{Table head 1}  & \textbf{Table head 2} & \textbf{Table head 3}\\
+%    	Some value  & Some value & Some value\\
+%    	Some value  & Some value & Some value\\
+%    	Some value  & Some value & Some value
+% \end{rpg-table}
+
+% \newsect
+
+\input{sections/situation}
+\input{sections/characters}
+\input{sections/act-1}
+\input{sections/act-2}
+\input{sections/act-3}
+% \input{sections/epilogue}
+\input{sections/appendix}
+
+% End document
+\end{document}
