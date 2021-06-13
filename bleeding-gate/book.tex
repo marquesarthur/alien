@@ -1,0 +1,116 @@
+\documentclass[10pt,twoside,twocolumn]{book}
+\usepackage[bg-letter]{lib/rpg-book} % Options: bg-a4, bg-letter, bg-full, bg-print, bg-none.
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage[T1]{fontenc}
+\usepackage{tgcursor}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{pdfpages}
+
+\usepackage{rotating}
+\usepackage{tikz}
+
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+  \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+\makeatletter
+\def\newsect{%
+    \vskip2em plus0.5em minus0.5em%
+    \hbox to\linewidth{\hfil*\quad\quad*\quad\quad*\hfil}%
+    \penalty10000\vskip2em plus0.5em minus0.5em%
+    \@afterindentfalse\@afterheading%
+}
+\makeatother%
+
+
+\definecolor{alien}{rgb}{1, 1, 0.9}
+
+\definecolor{PC}{HTML}{c0ccc1}
+
+
+\newcommand\pc[1]{\colorbox{PC}{\color{black} #1}}
+
+%  
+
+\AtBeginDocument{\globalcolor{alien}}
+
+\title{Fireman's}
+\date{\today}
+\author{Arthur Marques \\ u/marques\_art\_boris}
+
+
+
+
+
+% Start document
+\begin{document}
+\fontfamily{ppl}\selectfont % Set text font
+\frontmatter
+
+\maketitle
+
+
+\begin{rpg-commentbox}{Overview}
+  Biohazard is a complete cinematic scenario for Alien roleplaying game. Players take the role of corporate firefighters trying to save the space station medical facility, or so they were told.
+
+  This is a short cinematic scenario, ideal for a single session or perhaps 2 sessions where you can dive more into details and allow more openness. I estimate that the whole booklet can be finished in a 6 to 8h game (preferably 2 sessions).
+\end{rpg-commentbox}
+
+
+
+\medskip
+\begin{rpg-commentbox}{A note form the author}
+  \textbf{Full disclosure:} I apologize to those who put their lives at risk doing such an amazing job for any inaccuracies in this adventure. I am a humble student and my knowledge of firefighters is based on whatever I could gather/read/watch to write this adventure. 
+  
+  Ultimately, this is still a game with its limitations and I do hope that people have fun playing this cinematic scenario.
+  \begin{flushright}
+  -- Arthur Marques
+  \end{flushright}
+\end{rpg-commentbox}
+
+
+
+\begin{rpg-warnbox}{Another note form the author}
+  The following content contains mature situations/themes and is intended for an adult audience. The opinions expressed here do not necessarily reflect my personal opinions. Readers discretion is advised.
+
+  Other red boxes in the booklet are often optional and explicitly have gore descriptions. Use them only if you and all players are comfortable.
+
+  \begin{flushright}
+  -- Arthur Marques
+  \end{flushright}
+\end{rpg-warnbox}
+
+
+\makebox[0pt][l]{%
+  \raisebox{-\totalheight}[-20pt][0pt]{%
+    \hspace*{-0.5cm}%
+    \includegraphics[width=1.0\textwidth]{img/bg/fire.jpg}}}%
+
+
+\clearpage
+
+
+
+\tableofcontents
+
+\mainmatter
+
+\input{sections/situation}
+\input{sections/characters}
+\input{sections/act-1}
+\input{sections/act-2}
+\input{sections/act-3}
+\input{sections/appendix}
+
+% End document
+\end{document}
